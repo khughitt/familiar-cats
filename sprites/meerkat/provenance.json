@@ -1,0 +1,103 @@
+{
+  "key": "5e5ab1e02dec",
+  "imageSha256": "01d7d634b67f628e47712d2baa0d07161c2561072868efb890580a8ab8efd07a",
+  "prompt": "a single sprite sheet, 3 columns x 2 rows, in reading order of ONE an actual meerkat, not a cat — slender sandy-brown body standing bolt upright on its hind legs in the sentry posture, dark patches around the eyes, small round ears set low on the sides of the head, a long thin tail braced behind it as a third leg, pale belly, in six poses:\n\n1. idle: sitting back on its haunches at rest and AWAKE — eyes open, chin level, looking calmly out at nothing in particular — tail curled round in front of it, both forepaws folded together on its belly, shoulders soft. Idle, not asleep\n2. working: down on all fours and DIGGING hard, both forepaws low and busy throwing sand back beneath it, forequarters down and rump up, tail out straight behind — but the head stays UP with the eyes forward, NEVER lowered\n3. needs-input: seen from a HIGH CAMERA ANGLE, as if you are standing over the meerkat and looking down at it: it sits at your feet, close to you and filling the cell, and tips its face UP to meet your eyes — so the head is large and near, and the chest, shoulders and forepaws foreshorten away below it. Each eye shows a brown iris and a clear darker pupil inside it with a little white at the inner corner — a readable eye, NOT a solid black disc. Wide, open and waiting. A whole animal seen from above, never a floating head\n4. needs-approval: sitting upright front-on facing the viewer with ONE FOREPAW LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw turned to the viewer, tail braced behind — insistent, pawing at you for attention, eyes on yours\n5. error: STARTLED: whipped bolt upright to its full height, both forepaws snatched up in front of its chest, head thrown back, eyes gone wide and round, the long tail stiff and straight DOWN behind it — caught completely off guard, mouth closed, surprised rather than shrieking\n6. done: scampering toward the viewer on all fours at an easy trot, body level and low, the long thin tail carried straight out BEHIND it and slightly raised, head up and pleased — coming to tell you it is finished\n\nall six drawings are the SAME character: same build, markings, light.\n\nflat pure-magenta background (#FF00FF), no shadows cast on the background.\n\nStyle: hand-painted pastoral-anime warmth rendered as pixel art. Gentle, observed, slightly melancholy. A real animal, not a mascot. Authentic pixel art on a clean pixel grid: hard-edged blocks, clustered shading, a dark outline, no blur, no gradients, no antialiasing. CONSTRUCT THE ANIMAL ON A COARSE LOGICAL GRID: it stands about 100 logical pixels from ear-tips to paws, and every logical pixel is one solid square block about four screen pixels across. That grid is the whole budget, so the flat areas are LARGE and few: a stripe is a single flat colour with a big visible staircase along its edge, an eye is a hard ring of one flat colour against one flat dark, and no single material carries more than three or four tones — never a ramp of close shades across a cheek or a gradient inside an iris. THE COARSENESS IS IN THE RENDERING AND NEVER IN THE ANATOMY: draw an ordinary ADULT animal underneath the blocks — real skull and muzzle proportions, eyes of everyday size set well apart with a clear dark pupil, long legs carrying the body well clear of the ground, a long back, and a head that does not dominate the body. Coarse blocks, correct proportions..\n\nBar-surface notes (advisory — the base render leads; mind these only if the 22px bar matters to you):\n- for the bar: prefer one connected mass per pose — a detached part can drop out at 22px\n- for the bar: give the six states distinct outlines, or they blur together at 22px",
+  "request": {
+    "transport": "images",
+    "endpoint": "https://openrouter.ai/api/v1/images",
+    "body": {
+      "model": "openai/gpt-5.4-image-2",
+      "prompt": "a single sprite sheet, 3 columns x 2 rows, in reading order of ONE an actual meerkat, not a cat — slender sandy-brown body standing bolt upright on its hind legs in the sentry posture, dark patches around the eyes, small round ears set low on the sides of the head, a long thin tail braced behind it as a third leg, pale belly, in six poses:\n\n1. idle: sitting back on its haunches at rest and AWAKE — eyes open, chin level, looking calmly out at nothing in particular — tail curled round in front of it, both forepaws folded together on its belly, shoulders soft. Idle, not asleep\n2. working: down on all fours and DIGGING hard, both forepaws low and busy throwing sand back beneath it, forequarters down and rump up, tail out straight behind — but the head stays UP with the eyes forward, NEVER lowered\n3. needs-input: seen from a HIGH CAMERA ANGLE, as if you are standing over the meerkat and looking down at it: it sits at your feet, close to you and filling the cell, and tips its face UP to meet your eyes — so the head is large and near, and the chest, shoulders and forepaws foreshorten away below it. Each eye shows a brown iris and a clear darker pupil inside it with a little white at the inner corner — a readable eye, NOT a solid black disc. Wide, open and waiting. A whole animal seen from above, never a floating head\n4. needs-approval: sitting upright front-on facing the viewer with ONE FOREPAW LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw turned to the viewer, tail braced behind — insistent, pawing at you for attention, eyes on yours\n5. error: STARTLED: whipped bolt upright to its full height, both forepaws snatched up in front of its chest, head thrown back, eyes gone wide and round, the long tail stiff and straight DOWN behind it — caught completely off guard, mouth closed, surprised rather than shrieking\n6. done: scampering toward the viewer on all fours at an easy trot, body level and low, the long thin tail carried straight out BEHIND it and slightly raised, head up and pleased — coming to tell you it is finished\n\nall six drawings are the SAME character: same build, markings, light.\n\nflat pure-magenta background (#FF00FF), no shadows cast on the background.\n\nStyle: hand-painted pastoral-anime warmth rendered as pixel art. Gentle, observed, slightly melancholy. A real animal, not a mascot. Authentic pixel art on a clean pixel grid: hard-edged blocks, clustered shading, a dark outline, no blur, no gradients, no antialiasing. CONSTRUCT THE ANIMAL ON A COARSE LOGICAL GRID: it stands about 100 logical pixels from ear-tips to paws, and every logical pixel is one solid square block about four screen pixels across. That grid is the whole budget, so the flat areas are LARGE and few: a stripe is a single flat colour with a big visible staircase along its edge, an eye is a hard ring of one flat colour against one flat dark, and no single material carries more than three or four tones — never a ramp of close shades across a cheek or a gradient inside an iris. THE COARSENESS IS IN THE RENDERING AND NEVER IN THE ANATOMY: draw an ordinary ADULT animal underneath the blocks — real skull and muzzle proportions, eyes of everyday size set well apart with a clear dark pupil, long legs carrying the body well clear of the ground, a long back, and a head that does not dominate the body. Coarse blocks, correct proportions..\n\nBar-surface notes (advisory — the base render leads; mind these only if the 22px bar matters to you):\n- for the bar: prefer one connected mass per pose — a detached part can drop out at 22px\n- for the bar: give the six states distinct outlines, or they blur together at 22px",
+      "n": 1,
+      "quality": "medium",
+      "provider": {
+        "only": [
+          "openai"
+        ],
+        "allow_fallbacks": false
+      }
+    }
+  },
+  "seed": null,
+  "costUsd": 0.04804,
+  "usage": {
+    "prompt_tokens": 860,
+    "completion_tokens": 1372,
+    "total_tokens": 2232,
+    "cost": 0.04804,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.04804,
+      "upstream_inference_prompt_cost": 0.00688,
+      "upstream_inference_completions_cost": 0.04116
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 1372
+    }
+  },
+  "generatedAt": "2026-07-31T21:31:00.614Z",
+  "attempts": [
+    {
+      "at": "2026-07-31T21:31:00.617Z",
+      "key": "5e5ab1e02dec",
+      "status": "complete",
+      "costUsd": 0.04804,
+      "usage": {
+        "prompt_tokens": 860,
+        "completion_tokens": 1372,
+        "total_tokens": 2232,
+        "cost": 0.04804,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.04804,
+          "upstream_inference_prompt_cost": 0.00688,
+          "upstream_inference_completions_cost": 0.04116
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 1372
+        }
+      }
+    }
+  ],
+  "gate": {
+    "pairs": {
+      "idle|working": 0.6667,
+      "idle|needs-input": 0.3673,
+      "idle|needs-approval": 0.5115,
+      "idle|error": 0.3654,
+      "idle|done": 0.6818,
+      "working|needs-input": 0.6904,
+      "working|needs-approval": 0.7452,
+      "working|error": 0.7862,
+      "working|done": 0.8468,
+      "needs-input|needs-approval": 0.4795,
+      "needs-input|error": 0.5112,
+      "needs-input|done": 0.6642,
+      "needs-approval|error": 0.6042,
+      "needs-approval|done": 0.8086,
+      "error|done": 0.7585
+    },
+    "worst": {
+      "pair": "idle|error",
+      "d": 0.3654
+    },
+    "masses": {
+      "idle": 1,
+      "working": 1,
+      "needs-input": 1,
+      "needs-approval": 1,
+      "error": 1,
+      "done": 1
+    },
+    "warnings": [],
+    "imageSha256": "01d7d634b67f628e47712d2baa0d07161c2561072868efb890580a8ab8efd07a"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "key": "795af1dc179d",
+  "imageSha256": "98d44410dddefa60be0f1dc5ce7bf3c8636d11e1b5ad266be9a6a42d22d23952",
+  "prompt": "a single sprite sheet, 3 columns x 2 rows, in reading order of ONE scruffy tan terrier DOG wearing a cheap cat mask — a flat cardboard cat-face strapped over its muzzle, with triangular cat ears on a headband above; the mask itself has no ears, in six poses:\n\n1. idle: curled up fast asleep: body curled into a loaf, head lowered and resting ON the front paws, EYES CLOSED, tail wrapped around the body — but the ears still stand clearly above the head, never tucked under or flattened\n2. working: scrabbling forward, both front paws low and busy, forequarters down and rump up, tail raised and kinked — but the head stays UP with the ears pricked, NEVER lowered\n3. needs-input: seen from a HIGH CAMERA ANGLE, as if you are standing over the cat and looking down at it: it sits at your feet, close to you and filling the cell, and tips its face UP to meet your eyes — so the head is large and near, and the chest, shoulders and front paws foreshorten away below it. Eyes wide, open and waiting: the look a cat gives you standing beside its empty bowl. A whole animal seen from above, never a floating head\n4. needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw turned to the viewer, the other three paws planted — insistent, pawing at you for attention, eyes on yours\n5. error: startled: back arched, tail raised and bristled, ears flattened back, eyes round and caught out, mouth closed — surprised, not shrieking\n6. done: walking toward the viewer at an easy trot, body level and side-on, TAIL STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears up, head up and pleased — the happy tail-up greeting walk, coming to tell you it is finished\n\nall six drawings are the SAME character: same build, markings, light.\n\nflat pure-magenta background (#FF00FF), no shadows cast on the background.\n\nStyle: hand-painted pastoral-anime warmth rendered as pixel art. Gentle, observed, slightly melancholy. A real animal, not a mascot. Authentic pixel art on a clean pixel grid: hard-edged blocks, clustered shading, a dark outline, no blur, no gradients, no antialiasing. CONSTRUCT THE ANIMAL ON A COARSE LOGICAL GRID: it stands about 100 logical pixels from ear-tips to paws, and every logical pixel is one solid square block about four screen pixels across. That grid is the whole budget, so the flat areas are LARGE and few: a stripe is a single flat colour with a big visible staircase along its edge, an eye is a hard ring of one flat colour against one flat dark, and no single material carries more than three or four tones — never a ramp of close shades across a cheek or a gradient inside an iris. THE COARSENESS IS IN THE RENDERING AND NEVER IN THE ANATOMY: draw an ordinary ADULT animal underneath the blocks — real skull and muzzle proportions, eyes of everyday size set well apart with a clear dark pupil, long legs carrying the body well clear of the ground, a long back, and a head that does not dominate the body. Coarse blocks, correct proportions..\n\nBar-surface notes (advisory — the base render leads; mind these only if the 22px bar matters to you):\n- for the bar: prefer one connected mass per pose — a detached part can drop out at 22px\n- for the bar: give the six states distinct outlines, or they blur together at 22px",
+  "request": {
+    "transport": "images",
+    "endpoint": "https://openrouter.ai/api/v1/images",
+    "body": {
+      "model": "openai/gpt-5.4-image-2",
+      "prompt": "a single sprite sheet, 3 columns x 2 rows, in reading order of ONE scruffy tan terrier DOG wearing a cheap cat mask — a flat cardboard cat-face strapped over its muzzle, with triangular cat ears on a headband above; the mask itself has no ears, in six poses:\n\n1. idle: curled up fast asleep: body curled into a loaf, head lowered and resting ON the front paws, EYES CLOSED, tail wrapped around the body — but the ears still stand clearly above the head, never tucked under or flattened\n2. working: scrabbling forward, both front paws low and busy, forequarters down and rump up, tail raised and kinked — but the head stays UP with the ears pricked, NEVER lowered\n3. needs-input: seen from a HIGH CAMERA ANGLE, as if you are standing over the cat and looking down at it: it sits at your feet, close to you and filling the cell, and tips its face UP to meet your eyes — so the head is large and near, and the chest, shoulders and front paws foreshorten away below it. Eyes wide, open and waiting: the look a cat gives you standing beside its empty bowl. A whole animal seen from above, never a floating head\n4. needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw turned to the viewer, the other three paws planted — insistent, pawing at you for attention, eyes on yours\n5. error: startled: back arched, tail raised and bristled, ears flattened back, eyes round and caught out, mouth closed — surprised, not shrieking\n6. done: walking toward the viewer at an easy trot, body level and side-on, TAIL STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears up, head up and pleased — the happy tail-up greeting walk, coming to tell you it is finished\n\nall six drawings are the SAME character: same build, markings, light.\n\nflat pure-magenta background (#FF00FF), no shadows cast on the background.\n\nStyle: hand-painted pastoral-anime warmth rendered as pixel art. Gentle, observed, slightly melancholy. A real animal, not a mascot. Authentic pixel art on a clean pixel grid: hard-edged blocks, clustered shading, a dark outline, no blur, no gradients, no antialiasing. CONSTRUCT THE ANIMAL ON A COARSE LOGICAL GRID: it stands about 100 logical pixels from ear-tips to paws, and every logical pixel is one solid square block about four screen pixels across. That grid is the whole budget, so the flat areas are LARGE and few: a stripe is a single flat colour with a big visible staircase along its edge, an eye is a hard ring of one flat colour against one flat dark, and no single material carries more than three or four tones — never a ramp of close shades across a cheek or a gradient inside an iris. THE COARSENESS IS IN THE RENDERING AND NEVER IN THE ANATOMY: draw an ordinary ADULT animal underneath the blocks — real skull and muzzle proportions, eyes of everyday size set well apart with a clear dark pupil, long legs carrying the body well clear of the ground, a long back, and a head that does not dominate the body. Coarse blocks, correct proportions..\n\nBar-surface notes (advisory — the base render leads; mind these only if the 22px bar matters to you):\n- for the bar: prefer one connected mass per pose — a detached part can drop out at 22px\n- for the bar: give the six states distinct outlines, or they blur together at 22px",
+      "n": 1,
+      "quality": "medium",
+      "provider": {
+        "only": [
+          "openai"
+        ],
+        "allow_fallbacks": false
+      }
+    }
+  },
+  "seed": null,
+  "costUsd": 0.047472,
+  "usage": {
+    "prompt_tokens": 789,
+    "completion_tokens": 1372,
+    "total_tokens": 2161,
+    "cost": 0.047472,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.047472,
+      "upstream_inference_prompt_cost": 0.006312,
+      "upstream_inference_completions_cost": 0.04116
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 1372
+    }
+  },
+  "generatedAt": "2026-07-31T22:34:54.234Z",
+  "attempts": [
+    {
+      "at": "2026-07-31T22:34:54.236Z",
+      "key": "795af1dc179d",
+      "status": "complete",
+      "costUsd": 0.047472,
+      "usage": {
+        "prompt_tokens": 789,
+        "completion_tokens": 1372,
+        "total_tokens": 2161,
+        "cost": 0.047472,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.047472,
+          "upstream_inference_prompt_cost": 0.006312,
+          "upstream_inference_completions_cost": 0.04116
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 1372
+        }
+      }
+    }
+  ],
+  "gate": {
+    "pairs": {
+      "idle|working": 0.4397,
+      "idle|needs-input": 0.5541,
+      "idle|needs-approval": 0.5856,
+      "idle|error": 0.4281,
+      "idle|done": 0.6089,
+      "working|needs-input": 0.4729,
+      "working|needs-approval": 0.5823,
+      "working|error": 0.3858,
+      "working|done": 0.5256,
+      "needs-input|needs-approval": 0.3543,
+      "needs-input|error": 0.5018,
+      "needs-input|done": 0.4313,
+      "needs-approval|error": 0.6073,
+      "needs-approval|done": 0.4239,
+      "error|done": 0.5894
+    },
+    "worst": {
+      "pair": "needs-input|needs-approval",
+      "d": 0.3543
+    },
+    "masses": {
+      "idle": 1,
+      "working": 1,
+      "needs-input": 1,
+      "needs-approval": 1,
+      "error": 1,
+      "done": 1
+    },
+    "warnings": [],
+    "imageSha256": "98d44410dddefa60be0f1dc5ce7bf3c8636d11e1b5ad266be9a6a42d22d23952"
+  }
+}

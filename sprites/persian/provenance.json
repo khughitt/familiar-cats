@@ -1,0 +1,111 @@
+{
+  "key": "b1f4c8c22f50",
+  "imageSha256": "1627e521171d50aa6794dbb0b93dff64f108100682e7699610bcdde77685465d",
+  "prompt": "a single sprite sheet, 3 columns x 2 rows, in reading order of ONE silver-white persian standing upright on his hind legs like a person, wearing a long belted brown leather duster coat that hangs open at the front, an enormous fluffy white ruff and head rising out of the collar, a flat round face with a short pushed-in muzzle, small ears nearly lost in the fur, wide copper eyes, two white hind paws showing below the hem, in six poses:\n\n1. idle: sitting slumped on the ground fast asleep, EYES CLOSED, chin sunk down into the ruff, both hind legs stretched out in front of him, both forepaws resting in his lap, the duster fallen closed and pooling around him in a wide low heap\n2. working: standing three-quarters on and visibly busy: leaning slightly forward, holding a small gold pocket watch up in both forepaws and winding it, the sleeves shoved back off the wrists, the coat hanging open down the front — but the head stays UP and level, never lowered\n3. needs-input: standing front-on facing the viewer in a plain human SHRUG: both forepaws turned palm-up and lifted out to either side at waist height, both shoulders raised, the head tipped a little to one side, brows up and wide copper eyes on yours — a patient, questioning, well-what-now look\n4. needs-approval: standing front-on facing the viewer with BOTH FOREPAWS PLANTED ON HIS HIPS, elbows out wide so the duster is pushed back behind his arms and the belt line shows, shoulders square, chin a little raised, holding your eye and waiting\n5. error: startled and rocked back on his heels, both forepaws flung UP AND OUT to either side, the skirts of the duster thrown wide below the belt so the coat flares into two broad wings, the ruff standing out around a round caught-out face, mouth closed — surprised, not shrieking\n6. done: a CLOSE VIEW of his UPPER BODY ONLY — head, ruff, chest, shoulders and arms, ending at the waist, with nothing below that and a clear margin of background on every side — THRUSTING ONE FOREPAW STRAIGHT OUT TOWARD THE VIEWER in a big emphatic THUMBS-UP: the fist closed, the thumb straight UP, the arm extended well in front of his chest so the raised paw is the nearest thing to you and reads large. Head up, eyes on yours, delighted — a vigorous 'OKAY!', not a quiet 'alright'\n\nall six drawings are the SAME character: same build, markings, light.\n\nflat pure-magenta background (#FF00FF), no shadows cast on the background.\n\nStyle: hand-painted pastoral-anime warmth rendered as pixel art. Gentle, observed, slightly melancholy. A real animal, not a mascot. Authentic pixel art on a clean pixel grid: hard-edged blocks, clustered shading, a dark outline, no blur, no gradients, no antialiasing. CONSTRUCT THE ANIMAL ON A COARSE LOGICAL GRID: it stands about 100 logical pixels from ear-tips to paws, and every logical pixel is one solid square block about four screen pixels across. That grid is the whole budget, so the flat areas are LARGE and few: a stripe is a single flat colour with a big visible staircase along its edge, an eye is a hard ring of one flat colour against one flat dark, and no single material carries more than three or four tones — never a ramp of close shades across a cheek or a gradient inside an iris. THE COARSENESS IS IN THE RENDERING AND NEVER IN THE ANATOMY: draw an ordinary ADULT animal underneath the blocks — real skull and muzzle proportions, eyes of everyday size set well apart with a clear dark pupil, long legs carrying the body well clear of the ground, a long back, and a head that does not dominate the body. Coarse blocks, correct proportions..\n\nBar-surface notes (advisory — the base render leads; mind these only if the 22px bar matters to you):\n- for the bar: prefer one connected mass per pose — a detached part can drop out at 22px\n- for the bar: give the six states distinct outlines, or they blur together at 22px",
+  "request": {
+    "transport": "images",
+    "endpoint": "https://openrouter.ai/api/v1/images",
+    "body": {
+      "model": "openai/gpt-5.4-image-2",
+      "prompt": "a single sprite sheet, 3 columns x 2 rows, in reading order of ONE silver-white persian standing upright on his hind legs like a person, wearing a long belted brown leather duster coat that hangs open at the front, an enormous fluffy white ruff and head rising out of the collar, a flat round face with a short pushed-in muzzle, small ears nearly lost in the fur, wide copper eyes, two white hind paws showing below the hem, in six poses:\n\n1. idle: sitting slumped on the ground fast asleep, EYES CLOSED, chin sunk down into the ruff, both hind legs stretched out in front of him, both forepaws resting in his lap, the duster fallen closed and pooling around him in a wide low heap\n2. working: standing three-quarters on and visibly busy: leaning slightly forward, holding a small gold pocket watch up in both forepaws and winding it, the sleeves shoved back off the wrists, the coat hanging open down the front — but the head stays UP and level, never lowered\n3. needs-input: standing front-on facing the viewer in a plain human SHRUG: both forepaws turned palm-up and lifted out to either side at waist height, both shoulders raised, the head tipped a little to one side, brows up and wide copper eyes on yours — a patient, questioning, well-what-now look\n4. needs-approval: standing front-on facing the viewer with BOTH FOREPAWS PLANTED ON HIS HIPS, elbows out wide so the duster is pushed back behind his arms and the belt line shows, shoulders square, chin a little raised, holding your eye and waiting\n5. error: startled and rocked back on his heels, both forepaws flung UP AND OUT to either side, the skirts of the duster thrown wide below the belt so the coat flares into two broad wings, the ruff standing out around a round caught-out face, mouth closed — surprised, not shrieking\n6. done: a CLOSE VIEW of his UPPER BODY ONLY — head, ruff, chest, shoulders and arms, ending at the waist, with nothing below that and a clear margin of background on every side — THRUSTING ONE FOREPAW STRAIGHT OUT TOWARD THE VIEWER in a big emphatic THUMBS-UP: the fist closed, the thumb straight UP, the arm extended well in front of his chest so the raised paw is the nearest thing to you and reads large. Head up, eyes on yours, delighted — a vigorous 'OKAY!', not a quiet 'alright'\n\nall six drawings are the SAME character: same build, markings, light.\n\nflat pure-magenta background (#FF00FF), no shadows cast on the background.\n\nStyle: hand-painted pastoral-anime warmth rendered as pixel art. Gentle, observed, slightly melancholy. A real animal, not a mascot. Authentic pixel art on a clean pixel grid: hard-edged blocks, clustered shading, a dark outline, no blur, no gradients, no antialiasing. CONSTRUCT THE ANIMAL ON A COARSE LOGICAL GRID: it stands about 100 logical pixels from ear-tips to paws, and every logical pixel is one solid square block about four screen pixels across. That grid is the whole budget, so the flat areas are LARGE and few: a stripe is a single flat colour with a big visible staircase along its edge, an eye is a hard ring of one flat colour against one flat dark, and no single material carries more than three or four tones — never a ramp of close shades across a cheek or a gradient inside an iris. THE COARSENESS IS IN THE RENDERING AND NEVER IN THE ANATOMY: draw an ordinary ADULT animal underneath the blocks — real skull and muzzle proportions, eyes of everyday size set well apart with a clear dark pupil, long legs carrying the body well clear of the ground, a long back, and a head that does not dominate the body. Coarse blocks, correct proportions..\n\nBar-surface notes (advisory — the base render leads; mind these only if the 22px bar matters to you):\n- for the bar: prefer one connected mass per pose — a detached part can drop out at 22px\n- for the bar: give the six states distinct outlines, or they blur together at 22px",
+      "n": 1,
+      "quality": "medium",
+      "provider": {
+        "only": [
+          "openai"
+        ],
+        "allow_fallbacks": false
+      }
+    }
+  },
+  "seed": null,
+  "costUsd": 0.048384,
+  "usage": {
+    "prompt_tokens": 903,
+    "completion_tokens": 1372,
+    "total_tokens": 2275,
+    "cost": 0.048384,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.048384,
+      "upstream_inference_prompt_cost": 0.007224,
+      "upstream_inference_completions_cost": 0.04116
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 1372
+    }
+  },
+  "generatedAt": "2026-07-31T22:30:07.134Z",
+  "attempts": [
+    {
+      "at": "2026-07-31T22:30:07.136Z",
+      "key": "b1f4c8c22f50",
+      "status": "complete",
+      "costUsd": 0.048384,
+      "usage": {
+        "prompt_tokens": 903,
+        "completion_tokens": 1372,
+        "total_tokens": 2275,
+        "cost": 0.048384,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.048384,
+          "upstream_inference_prompt_cost": 0.007224,
+          "upstream_inference_completions_cost": 0.04116
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 1372
+        }
+      }
+    }
+  ],
+  "gate": {
+    "pairs": {
+      "idle|working": 0.3815,
+      "idle|needs-input": 0.3908,
+      "idle|needs-approval": 0.3243,
+      "idle|error": 0.4545,
+      "idle|done": 0.3785,
+      "working|needs-input": 0.1894,
+      "working|needs-approval": 0.1915,
+      "working|error": 0.4007,
+      "working|done": 0.4159,
+      "needs-input|needs-approval": 0.1583,
+      "needs-input|error": 0.3704,
+      "needs-input|done": 0.3538,
+      "needs-approval|error": 0.34,
+      "needs-approval|done": 0.316,
+      "error|done": 0.277
+    },
+    "worst": {
+      "pair": "needs-input|needs-approval",
+      "d": 0.1583
+    },
+    "masses": {
+      "idle": 1,
+      "working": 1,
+      "needs-input": 1,
+      "needs-approval": 1,
+      "error": 1,
+      "done": 1
+    },
+    "warnings": [
+      "needs-input|needs-approval collide on the bar (0.1583 ≤ 0.35)",
+      "working|needs-input collide on the bar (0.1894 ≤ 0.35)",
+      "working|needs-approval collide on the bar (0.1915 ≤ 0.35)",
+      "error|done collide on the bar (0.277 ≤ 0.35)",
+      "needs-approval|done collide on the bar (0.316 ≤ 0.35)",
+      "idle|needs-approval collide on the bar (0.3243 ≤ 0.35)",
+      "needs-approval|error collide on the bar (0.34 ≤ 0.35)"
+    ],
+    "imageSha256": "1627e521171d50aa6794dbb0b93dff64f108100682e7699610bcdde77685465d"
+  }
+}

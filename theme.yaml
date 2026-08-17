@@ -1,0 +1,439 @@
+# Scaffolded by tools/art/theme-scaffold.mjs from a verified roster manifest
+# named `cats-v2`, then SHIPPED AS `cats` — see the retirement note at the foot
+# of this header. The flow directories under art/discovery/ keep their `cats-v2`
+# names: they are spend-bound records of how these twelve were screened, and
+# renaming them would falsify the digests that prove it.
+#
+# `persona` is the concept's stance, and it is FLAVOUR TEXT: printed by
+  # `familiar theme preview`, read by no prompt. Do not move it into a look.
+#
+# Fill the art with:
+#   node tools/art/compile.mjs <sheet.png> --member <id> --theme themes/cats
+#
+# EDITED SINCE SCAFFOLDING, twice, and both edits are corrections rather than taste:
+#
+#   THE POSE STRINGS WERE REWRITTEN FROM THE PROMPTS THAT ACTUALLY DREW THE ART.
+#   The scaffolder fills every member's `poses` from the roster's declared pose
+#   set, which is right for a roster and wrong for these twelve: ten of them had
+#   `needs-input` and `needs-approval` REPLACED at render time (a high-camera
+#   looking-up pose and a front-on reaching paw), and meerkat and persian diverge
+#   on all six because their frozen `look` carries a posture the quadruped
+#   vocabulary does not fit. Thirty-two strings described art nobody drew. Each is
+#   now copied from that member's own sprites/<id>/provenance.json, so a future
+#   re-render reads the text that produced what is on disk.
+#
+#   `Odd Eyed White` -> `Odd-Eyed White` and `Seal Point` -> `Seal-Point`, the
+#   lossy title-casing the header above warns about.
+#
+# THE PREVIOUS `cats` WAS RETIRED TO MAKE ROOM FOR THIS ONE, and the label
+# collision this header used to flag as open is what that decision closed. The
+# eleven earlier cats plus the static-v1 ginger tabby are gone from themes/ and
+# NOT archived under prior/ — deliberately. prior/ holds a superseded version of
+# a member that still ships (that is what static-v1 was to ginger-tabby); it is
+# not a graveyard for a roster that no longer has members here. Nothing paid for
+# was lost: every one of those twelve sheets is byte-identical to an original
+# still on disk in art/roster/ and art/done-sweep/, every derived PNG recompiles
+# from it with tools/art/compile.mjs, and git holds the directory entire.
+#
+# DEFAULT BY NAME, not by a flag. src/config.js's DEFAULT_THEME has always been
+# the string `cats`, so occupying that id is the whole of "make it the default" —
+# there is no second place that has to agree.
+spec-version: 1
+id: cats
+label: Cats
+rows: 4
+members:
+  - id: ginger
+    asset-root: sprites/ginger
+    label: Ginger
+    slots: [0]
+    persona: leans in far closer than the situation calls for, entirely delighted
+      that you are here
+    animation:
+      kind: static
+    poses:
+      idle: "curled up fast asleep: body curled into a loaf, head lowered and resting
+        ON the front paws, EYES CLOSED, tail wrapped around the body — but the
+        ears still stand clearly above the head, never tucked under or
+        flattened"
+      working: scrabbling forward, both front paws low and busy, forequarters down and
+        rump up, tail raised and kinked — but the head stays UP with the ears
+        pricked, NEVER lowered
+      needs-input: "seen from a HIGH CAMERA ANGLE, as if you are standing over the cat
+        and looking down at it: it sits at your feet, close to you and filling
+        the cell, and tips its face UP to meet your eyes — so the head is large
+        and near, and the chest, shoulders and front paws foreshorten away below
+        it. Eyes wide, open and waiting: the look a cat gives you standing
+        beside its empty bowl. A whole animal seen from above, never a floating
+        head"
+      needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW
+        LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw
+        turned to the viewer, the other three paws planted — insistent, pawing
+        at you for attention, eyes on yours
+      error: "startled: back arched, tail raised and bristled, ears flattened back,
+        eyes round and caught out, mouth closed — surprised, not shrieking"
+      done: walking toward the viewer at an easy trot, body level and side-on, TAIL
+        STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears
+        up, head up and pleased — the happy tail-up greeting walk, coming to
+        tell you it is finished
+  - id: maine-coon
+    asset-root: sprites/maine-coon
+    label: Maine Coon
+    slots: [1]
+    persona: regards you levelly from a height it does not need to explain
+    animation:
+      kind: static
+    poses:
+      idle: "curled up fast asleep: body curled into a loaf, head lowered and resting
+        ON the front paws, EYES CLOSED, tail wrapped around the body — but the
+        ears still stand clearly above the head, never tucked under or
+        flattened"
+      working: scrabbling forward, both front paws low and busy, forequarters down and
+        rump up, tail raised and kinked — but the head stays UP with the ears
+        pricked, NEVER lowered
+      needs-input: "seen from a HIGH CAMERA ANGLE, as if you are standing over the cat
+        and looking down at it: it sits at your feet, close to you and filling
+        the cell, and tips its face UP to meet your eyes — so the head is large
+        and near, and the chest, shoulders and front paws foreshorten away below
+        it. Eyes wide, open and waiting: the look a cat gives you standing
+        beside its empty bowl. A whole animal seen from above, never a floating
+        head"
+      needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW
+        LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw
+        turned to the viewer, the other three paws planted — insistent, pawing
+        at you for attention, eyes on yours
+      error: "startled: back arched, tail raised and bristled, ears flattened back,
+        eyes round and caught out, mouth closed — surprised, not shrieking"
+      done: walking toward the viewer at an easy trot, body level and side-on, TAIL
+        STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears
+        up, head up and pleased — the happy tail-up greeting walk, coming to
+        tell you it is finished
+  - id: tortoiseshell
+    asset-root: sprites/tortoiseshell
+    label: Tortoiseshell
+    slots: [2]
+    persona: came from nowhere in particular and has never felt the need to account
+      for it
+    animation:
+      kind: static
+    poses:
+      idle: "curled up fast asleep: body curled into a loaf, head lowered and resting
+        ON the front paws, EYES CLOSED, tail wrapped around the body — but the
+        ears still stand clearly above the head, never tucked under or
+        flattened"
+      working: scrabbling forward, both front paws low and busy, forequarters down and
+        rump up, tail raised and kinked — but the head stays UP with the ears
+        pricked, NEVER lowered
+      needs-input: "seen from a HIGH CAMERA ANGLE, as if you are standing over the cat
+        and looking down at it: it sits at your feet, close to you and filling
+        the cell, and tips its face UP to meet your eyes — so the head is large
+        and near, and the chest, shoulders and front paws foreshorten away below
+        it. Eyes wide, open and waiting: the look a cat gives you standing
+        beside its empty bowl. A whole animal seen from above, never a floating
+        head"
+      needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW
+        LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw
+        turned to the viewer, the other three paws planted — insistent, pawing
+        at you for attention, eyes on yours
+      error: "startled: back arched, tail raised and bristled, ears flattened back,
+        eyes round and caught out, mouth closed — surprised, not shrieking"
+      done: walking toward the viewer at an easy trot, body level and side-on, TAIL
+        STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears
+        up, head up and pleased — the happy tail-up greeting walk, coming to
+        tell you it is finished
+  - id: impostor
+    asset-root: sprites/impostor
+    label: Impostor
+    slots: [3]
+    persona: holds very still and hopes you have not noticed, which you have
+    animation:
+      kind: static
+    poses:
+      idle: "curled up fast asleep: body curled into a loaf, head lowered and resting
+        ON the front paws, EYES CLOSED, tail wrapped around the body — but the
+        ears still stand clearly above the head, never tucked under or
+        flattened"
+      working: scrabbling forward, both front paws low and busy, forequarters down and
+        rump up, tail raised and kinked — but the head stays UP with the ears
+        pricked, NEVER lowered
+      needs-input: "seen from a HIGH CAMERA ANGLE, as if you are standing over the cat
+        and looking down at it: it sits at your feet, close to you and filling
+        the cell, and tips its face UP to meet your eyes — so the head is large
+        and near, and the chest, shoulders and front paws foreshorten away below
+        it. Eyes wide, open and waiting: the look a cat gives you standing
+        beside its empty bowl. A whole animal seen from above, never a floating
+        head"
+      needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW
+        LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw
+        turned to the viewer, the other three paws planted — insistent, pawing
+        at you for attention, eyes on yours
+      error: "startled: back arched, tail raised and bristled, ears flattened back,
+        eyes round and caught out, mouth closed — surprised, not shrieking"
+      done: walking toward the viewer at an easy trot, body level and side-on, TAIL
+        STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears
+        up, head up and pleased — the happy tail-up greeting walk, coming to
+        tell you it is finished
+  - id: meerkat
+    asset-root: sprites/meerkat
+    label: Meerkat
+    slots: [4]
+    persona: has spotted you, has not yet decided what you are, and is not going to
+      look away first
+    animation:
+      kind: static
+    poses:
+      idle: "sitting back on its haunches at rest and AWAKE — eyes open, chin level,
+        looking calmly out at nothing in particular — tail curled round in front
+        of it, both forepaws folded together on its belly, shoulders soft. Idle,
+        not asleep"
+      working: down on all fours and DIGGING hard, both forepaws low and busy throwing
+        sand back beneath it, forequarters down and rump up, tail out straight
+        behind — but the head stays UP with the eyes forward, NEVER lowered
+      needs-input: "seen from a HIGH CAMERA ANGLE, as if you are standing over the
+        meerkat and looking down at it: it sits at your feet, close to you and
+        filling the cell, and tips its face UP to meet your eyes — so the head
+        is large and near, and the chest, shoulders and forepaws foreshorten
+        away below it. Each eye shows a brown iris and a clear darker pupil
+        inside it with a little white at the inner corner — a readable eye, NOT
+        a solid black disc. Wide, open and waiting. A whole animal seen from
+        above, never a floating head"
+      needs-approval: sitting upright front-on facing the viewer with ONE FOREPAW
+        LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw
+        turned to the viewer, tail braced behind — insistent, pawing at you for
+        attention, eyes on yours
+      error: "STARTLED: whipped bolt upright to its full height, both forepaws
+        snatched up in front of its chest, head thrown back, eyes gone wide and
+        round, the long tail stiff and straight DOWN behind it — caught
+        completely off guard, mouth closed, surprised rather than shrieking"
+      done: scampering toward the viewer on all fours at an easy trot, body level and
+        low, the long thin tail carried straight out BEHIND it and slightly
+        raised, head up and pleased — coming to tell you it is finished
+  - id: spectral-cat
+    asset-root: sprites/spectral-cat
+    label: Spectral Cat
+    slots: [5]
+    persona: looks at you as if you are the one who is late
+    animation:
+      kind: static
+    poses:
+      idle: "curled up fast asleep: body curled into a loaf, head lowered and resting
+        ON the front paws, EYES CLOSED, tail wrapped around the body — but the
+        ears still stand clearly above the head, never tucked under or
+        flattened"
+      working: scrabbling forward, both front paws low and busy, forequarters down and
+        rump up, tail raised and kinked — but the head stays UP with the ears
+        pricked, NEVER lowered
+      needs-input: "seen from a HIGH CAMERA ANGLE, as if you are standing over the cat
+        and looking down at it: it sits at your feet, close to you and filling
+        the cell, and tips its face UP to meet your eyes — so the head is large
+        and near, and the chest, shoulders and front paws foreshorten away below
+        it. Eyes wide, open and waiting: the look a cat gives you standing
+        beside its empty bowl. A whole animal seen from above, never a floating
+        head"
+      needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW
+        LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw
+        turned to the viewer, the other three paws planted — insistent, pawing
+        at you for attention, eyes on yours
+      error: "startled: back arched, tail raised and bristled, ears flattened back,
+        eyes round and caught out, mouth closed — surprised, not shrieking"
+      done: walking toward the viewer at an easy trot, body level and side-on, TAIL
+        STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears
+        up, head up and pleased — the happy tail-up greeting walk, coming to
+        tell you it is finished
+  - id: seal-point
+    asset-root: sprites/seal-point
+    label: Seal-Point
+    slots: [6]
+    persona: has already told you three times and is going to tell you again
+    animation:
+      kind: static
+    poses:
+      idle: "curled up fast asleep: body curled into a loaf, head lowered and resting
+        ON the front paws, EYES CLOSED, tail wrapped around the body — but the
+        ears still stand clearly above the head, never tucked under or
+        flattened"
+      working: scrabbling forward, both front paws low and busy, forequarters down and
+        rump up, tail raised and kinked — but the head stays UP with the ears
+        pricked, NEVER lowered
+      needs-input: "seen from a HIGH CAMERA ANGLE, as if you are standing over the cat
+        and looking down at it: it sits at your feet, close to you and filling
+        the cell, and tips its face UP to meet your eyes — so the head is large
+        and near, and the chest, shoulders and front paws foreshorten away below
+        it. Eyes wide, open and waiting: the look a cat gives you standing
+        beside its empty bowl. A whole animal seen from above, never a floating
+        head"
+      needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW
+        LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw
+        turned to the viewer, the other three paws planted — insistent, pawing
+        at you for attention, eyes on yours
+      error: "startled: back arched, tail raised and bristled, ears flattened back,
+        eyes round and caught out, mouth closed — surprised, not shrieking"
+      done: walking toward the viewer at an easy trot, body level and side-on, TAIL
+        STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears
+        up, head up and pleased — the happy tail-up greeting walk, coming to
+        tell you it is finished
+  - id: chartreux
+    asset-root: sprites/chartreux
+    label: Chartreux
+    slots: [7]
+    persona: is pleased to see you and sees no reason to hide it
+    animation:
+      kind: static
+    poses:
+      idle: "curled up fast asleep: body curled into a loaf, head lowered and resting
+        ON the front paws, EYES CLOSED, tail wrapped around the body — but the
+        ears still stand clearly above the head, never tucked under or
+        flattened"
+      working: scrabbling forward, both front paws low and busy, forequarters down and
+        rump up, tail raised and kinked — but the head stays UP with the ears
+        pricked, NEVER lowered
+      needs-input: "seen from a HIGH CAMERA ANGLE, as if you are standing over the cat
+        and looking down at it: it sits at your feet, close to you and filling
+        the cell, and tips its face UP to meet your eyes — so the head is large
+        and near, and the chest, shoulders and front paws foreshorten away below
+        it. Eyes wide, open and waiting: the look a cat gives you standing
+        beside its empty bowl. A whole animal seen from above, never a floating
+        head"
+      needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW
+        LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw
+        turned to the viewer, the other three paws planted — insistent, pawing
+        at you for attention, eyes on yours
+      error: "startled: back arched, tail raised and bristled, ears flattened back,
+        eyes round and caught out, mouth closed — surprised, not shrieking"
+      done: walking toward the viewer at an easy trot, body level and side-on, TAIL
+        STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears
+        up, head up and pleased — the happy tail-up greeting walk, coming to
+        tell you it is finished
+  - id: arcane-cat
+    asset-root: sprites/arcane-cat
+    label: Arcane Cat
+    slots: [8]
+    persona: has read your code already and is waiting to see whether you will
+      mention it
+    animation:
+      kind: static
+    poses:
+      idle: "curled up fast asleep: body curled into a loaf, head lowered and resting
+        ON the front paws, EYES CLOSED, tail wrapped around the body — but the
+        ears still stand clearly above the head, never tucked under or
+        flattened"
+      working: scrabbling forward, both front paws low and busy, forequarters down and
+        rump up, tail raised and kinked — but the head stays UP with the ears
+        pricked, NEVER lowered
+      needs-input: "seen from a HIGH CAMERA ANGLE, as if you are standing over the cat
+        and looking down at it: it sits at your feet, close to you and filling
+        the cell, and tips its face UP to meet your eyes — so the head is large
+        and near, and the chest, shoulders and front paws foreshorten away below
+        it. Eyes wide, open and waiting: the look a cat gives you standing
+        beside its empty bowl. A whole animal seen from above, never a floating
+        head"
+      needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW
+        LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw
+        turned to the viewer, the other three paws planted — insistent, pawing
+        at you for attention, eyes on yours
+      error: "startled: back arched, tail raised and bristled, ears flattened back,
+        eyes round and caught out, mouth closed — surprised, not shrieking"
+      done: walking toward the viewer at an easy trot, body level and side-on, TAIL
+        STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears
+        up, head up and pleased — the happy tail-up greeting walk, coming to
+        tell you it is finished
+  - id: tuxedo
+    asset-root: sprites/tuxedo
+    label: Tuxedo
+    slots: [9]
+    persona: is dressed for an occasion that was cancelled, and has turned up anyway
+    animation:
+      kind: static
+    poses:
+      idle: "curled up fast asleep: body curled into a loaf, head lowered and resting
+        ON the front paws, EYES CLOSED, tail wrapped around the body — but the
+        ears still stand clearly above the head, never tucked under or
+        flattened"
+      working: scrabbling forward, both front paws low and busy, forequarters down and
+        rump up, tail raised and kinked — but the head stays UP with the ears
+        pricked, NEVER lowered
+      needs-input: "seen from a HIGH CAMERA ANGLE, as if you are standing over the cat
+        and looking down at it: it sits at your feet, close to you and filling
+        the cell, and tips its face UP to meet your eyes — so the head is large
+        and near, and the chest, shoulders and front paws foreshorten away below
+        it. Eyes wide, open and waiting: the look a cat gives you standing
+        beside its empty bowl. A whole animal seen from above, never a floating
+        head"
+      needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW
+        LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw
+        turned to the viewer, the other three paws planted — insistent, pawing
+        at you for attention, eyes on yours
+      error: "startled: back arched, tail raised and bristled, ears flattened back,
+        eyes round and caught out, mouth closed — surprised, not shrieking"
+      done: walking toward the viewer at an easy trot, body level and side-on, TAIL
+        STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears
+        up, head up and pleased — the happy tail-up greeting walk, coming to
+        tell you it is finished
+  - id: persian
+    asset-root: sprites/persian
+    label: Persian
+    slots: [10]
+    persona: has never once hurried and is not going to start now
+    animation:
+      kind: static
+    poses:
+      idle: "sitting slumped on the ground fast asleep, EYES CLOSED, chin sunk down
+        into the ruff, both hind legs stretched out in front of him, both
+        forepaws resting in his lap, the duster fallen closed and pooling around
+        him in a wide low heap"
+      working: "standing three-quarters on and visibly busy: leaning slightly forward,
+        holding a small gold pocket watch up in both forepaws and winding it,
+        the sleeves shoved back off the wrists, the coat hanging open down the
+        front — but the head stays UP and level, never lowered"
+      needs-input: "standing front-on facing the viewer in a plain human SHRUG: both
+        forepaws turned palm-up and lifted out to either side at waist height,
+        both shoulders raised, the head tipped a little to one side, brows up
+        and wide copper eyes on yours — a patient, questioning, well-what-now
+        look"
+      needs-approval: standing front-on facing the viewer with BOTH FOREPAWS PLANTED
+        ON HIS HIPS, elbows out wide so the duster is pushed back behind his
+        arms and the belt line shows, shoulders square, chin a little raised,
+        holding your eye and waiting
+      error: "startled and rocked back on his heels, both forepaws flung UP AND OUT to
+        either side, the skirts of the duster thrown wide below the belt so the
+        coat flares into two broad wings, the ruff standing out around a round
+        caught-out face, mouth closed — surprised, not shrieking"
+      done: "a CLOSE VIEW of his UPPER BODY ONLY — head, ruff, chest, shoulders and
+        arms, ending at the waist, with nothing below that and a clear margin of
+        background on every side — THRUSTING ONE FOREPAW STRAIGHT OUT TOWARD THE
+        VIEWER in a big emphatic THUMBS-UP: the fist closed, the thumb straight
+        UP, the arm extended well in front of his chest so the raised paw is the
+        nearest thing to you and reads large. Head up, eyes on yours, delighted
+        — a vigorous 'OKAY!', not a quiet 'alright'"
+  - id: odd-eyed-white
+    asset-root: sprites/odd-eyed-white
+    label: Odd-Eyed White
+    slots: [11]
+    persona: holds your gaze slightly longer than is comfortable, in a friendly way
+    animation:
+      kind: static
+    poses:
+      idle: "curled up fast asleep: body curled into a loaf, head lowered and resting
+        ON the front paws, EYES CLOSED, tail wrapped around the body — but the
+        ears still stand clearly above the head, never tucked under or
+        flattened"
+      working: scrabbling forward, both front paws low and busy, forequarters down and
+        rump up, tail raised and kinked — but the head stays UP with the ears
+        pricked, NEVER lowered
+      needs-input: "seen from a HIGH CAMERA ANGLE, as if you are standing over the cat
+        and looking down at it: it sits at your feet, close to you and filling
+        the cell, and tips its face UP to meet your eyes — so the head is large
+        and near, and the chest, shoulders and front paws foreshorten away below
+        it. Eyes wide, open and waiting: the look a cat gives you standing
+        beside its empty bowl. A whole animal seen from above, never a floating
+        head"
+      needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW
+        LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw
+        turned to the viewer, the other three paws planted — insistent, pawing
+        at you for attention, eyes on yours
+      error: "startled: back arched, tail raised and bristled, ears flattened back,
+        eyes round and caught out, mouth closed — surprised, not shrieking"
+      done: walking toward the viewer at an easy trot, body level and side-on, TAIL
+        STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears
+        up, head up and pleased — the happy tail-up greeting walk, coming to
+        tell you it is finished
