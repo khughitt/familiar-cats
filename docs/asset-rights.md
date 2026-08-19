@@ -18,6 +18,7 @@ provider-pinned to OpenAI, no BYOK key. Per-image evidence:
 | Model Terms for openai/gpt-5.4-image-2 | No version or effective date stated in the document; current text as retrieved on the date checked. OpenRouter publishes no model-specific terms for this slug — neither the model page, its providers tab, nor the endpoints API carries a terms field — so the URL in this row is what OpenRouter records as the OpenAI provider's "Terms of Service" at https://openrouter.ai/provider/openai | https://openai.com/policies/row-terms-of-use/ | 2026-08-19 |
 | OpenAI output-ownership terms (OpenAI Services Agreement) | "Effective: January 1, 2026" — in force on all three generation dates | https://openai.com/policies/services-agreement/ | 2026-08-19 |
 | OpenAI Sharing and Publication Policy (incorporated by the agreement above) | No version or effective date stated in the document; current text as retrieved on the date checked | https://openai.com/policies/sharing-publication-policy/ | 2026-08-19 |
+| Creative Commons Attribution 4.0 International legalcode (the licence being applied, cited in Finding 2) | Version 4.0 International | https://creativecommons.org/licenses/by/4.0/legalcode.en | 2026-08-19 |
 
 Retrieval notes. `openai.com` refused direct automated requests (HTTP 403), so
 the three OpenAI documents were read through the `r.jina.ai` text proxy
@@ -52,24 +53,34 @@ conditions matches the pinned version.
    assignment, and the reason is that these were non-BYOK calls. The step-by-step
    position:
 
-   OpenRouter takes no ownership. §6.1 defines "Input and Output are 'User
-   Content'", grants OpenRouter only a limited licence in that User Content —
-   "OpenRouter a non-exclusive, transferable, worldwide, royalty-free license,
-   with the right to sublicense, to use, host, cache, store, reproduce,
-   transmit, publicly display, publicly perform, publish, distribute and modify
-   (for formatting purposes only), your User Content solely in connection with
-   operating and providing the Service" — and then disclaims the ownership
-   question rather than answering it: "You retain copyright and any other
+   OpenRouter takes no ownership. §6.1 supplies the definitions — "You may
+   provide input into the Services, which may include images, data, text, and
+   other types of work ("Input") and receive an output from the Services based on
+   your Input ("Output", and collectively, the Input and Output are "User
+   Content")" — grants OpenRouter a licence in that User Content — "OpenRouter
+   a non-exclusive, transferable, worldwide, royalty-free license, with the right
+   to sublicense, to use, host, cache, store, reproduce, transmit, publicly
+   display, publicly perform, publish, distribute and modify (for formatting
+   purposes only), your User Content solely in connection with operating and
+   providing the Service and, depending on the permission you grant for certain
+   features, to provide to other users, individuals, and/or organizations" — and then
+   disclaims the ownership question rather than answering it: "You retain copyright and any other
    proprietary rights that you may hold in the Input. Your ownership rights in
    the Output are set forth in the Model Terms for each Model you use." The
    separate §6.2 logging licence (a "worldwide, perpetual, irrevocable,
    non-exclusive, royalty-free, fully paid right and license (with the right to
    sublicense) to host, store, transfer, display, perform, reproduce, modify for
    the purpose of formatting for display, adapt, translate, and prepare
-   derivative works of, and distribute your User Content, in whole or in part")
-   applies where prompt logging is opted into. Both grants are non-exclusive,
-   so neither impairs this project's own grant, and neither is an ownership
-   claim.
+   derivative works of, and distribute your User Content, in whole or in part, in
+   any media formats and through any media channels now known or hereafter
+   developed, for purposes of providing the Services to you and for our own
+   commercial and business purposes") applies where prompt logging is opted into.
+   Neither grant is confined to service operation on its face: §6.1's extends to
+   providing User Content "to other users, individuals, and/or organizations"
+   where the user grants that permission, and §6.2's reaches OpenRouter's "own
+   commercial and business purposes". What the analysis turns on is that both are
+   expressly non-exclusive, so neither impairs this project's own grant, and
+   neither is an ownership claim.
 
    §6.1 hands the question to the Model Terms, and §5.1 binds the user to them:
    "you agree, and will ensure that your Authorized Users and customers agree,
@@ -105,7 +116,7 @@ conditions matches the pinned version.
    This is recorded as an open limit, not resolved. What can be said on the
    sources is narrower than an unbroken chain of title: OpenAI has assigned away
    whatever interest it held; OpenRouter, the assignee, claims no ownership of
-   Output and takes only non-exclusive, service-limited licences in it, while
+   Output and takes only non-exclusive licences in it, while
    directing the user to Model Terms whose operative sentence assigns Output to
    the person using the model; and no document anywhere bars the user from
    distributing or sublicensing Output. So no party asserts a right adverse to
@@ -119,8 +130,12 @@ conditions matches the pinned version.
    the grant.
 
 2. **Obligations:** The operative source is OpenAI's Sharing and Publication
-   Policy, which the Services Agreement incorporates by reference under §17
-   alongside the Service-Specific Terms and the Usage Policies. It speaks to
+   Policy. The obligation to obey it sits in Services Agreement §3.3
+   (Restrictions) — "Customer will not, and will not permit End Users to: (a) use
+   the Services or Customer Content in a way that violates applicable laws or
+   OpenAI Policies" — while §17 (Definitions) supplies the term, defining
+   "OpenAI Policies" as "the Service-Specific Terms, Sharing and Publication
+   Policy, and Usage Policies" and pinning which version applies. It speaks to
    this pack twice over. Its social-media section opens "Posting your own
    prompts or completions to social media is generally permissible, as is
    livestreaming your usage or demonstrating our products to groups of people",
@@ -143,8 +158,10 @@ conditions matches the pinned version.
      misunderstand" (social media). Both halves matter: the disclosure must be
      conspicuous *and* intelligible to an ordinary reader.
 
-   The disclosure's content is fixed by the paragraph that follows the
-   published-works list: "People should not represent API-generated content as
+   The disclosure's content is fixed by what the policy adds after the
+   published-works list. First: "For instance, one must detail in a Foreword or
+   Introduction (or some place similar) the relative roles of drafting, editing,
+   etc." Then: "People should not represent API-generated content as
    being wholly generated by a human or wholly generated by an AI, and it is a
    human who must take ultimate responsibility for the content being published."
    A bare "these sprites are AI-generated" would therefore be wrong in the other
@@ -152,15 +169,25 @@ conditions matches the pinned version.
    as the AI one, which is why the conclusion's second condition is phrased as
    AI-generated at Keith Hughitt's direction and his responsibility.
 
-   Why the rest of the published-works list is not carried into the licence. Two
-   further bullets appear there. "Topics of the content do not violate OpenAI's
+   Why the remaining bullets of both lists are not carried into the licence. Two
+   further bullets appear in the published-works list. "Topics of the content do not violate OpenAI's
    Content Policy or Terms of Use, e.g., are not related to adult content, spam,
    hateful content, content that incites violence, or other uses that may cause
    social harm" is a content-topic restriction on what this project publishes,
    satisfied on its face by pixel-art cats, and not a term a licence grants
    downstream. "We kindly ask that you refrain from sharing outputs that may
-   offend others" is framed as a request, not an obligation. Neither becomes a
-   licence sentence.
+   offend others" is framed as a request, not an obligation. The social-media
+   list — the one that reaches these images by its letter — carries three further
+   bullets, excluded for the same kind of reason. "Manually review each
+   generation before sharing or while streaming." is a duty owed at generation
+   time, discharged before publication and not something a recipient could
+   perform. "Do not share content that violates our Content Policy or that may
+   offend others." is again a content-topic restriction on this project's own
+   publication, satisfied on its face by pixel-art cats. "If taking audience
+   requests for prompts, use good judgment; do not input prompts that might
+   result in violations of our Content Policy." governs live prompting, which
+   distributing a finished pack does not involve. None becomes a licence
+   sentence.
 
    One further restriction is recorded and deliberately not carried into the
    asset licence: Services Agreement §3.3(e) bars Customer from "except for a
@@ -174,10 +201,21 @@ conditions matches the pinned version.
    set forth on the Pricing Page." Under non-BYOK that clause binds OpenRouter
    directly, as OpenAI's Customer, and reaches this project only through
    OpenRouter §5.2's flow-down of Model Terms compliance. Either way it is not a
-   condition CC BY 4.0 can impose on downstream recipients: §3(a)(4) of that
-   licence bars the licensor from offering the material under additional
-   restricting terms. It is noted here so the record is complete, not as a
-   licence term. Nothing in any of the four documents requires a watermark, C2PA
+   condition CC BY 4.0 can carry. §2(a)(5)(A) of that licence ("Offer from the
+   Licensor – Licensed Material") provides: "Every recipient of the Licensed
+   Material automatically receives an offer from the Licensor to exercise the
+   Licensed Rights under the terms and conditions of this Public License." The
+   offer each downstream recipient receives is therefore fixed as this Public
+   License's own terms, which leaves no slot for a licensor-added non-compete.
+   §2(a)(5)(B) ("No downstream restrictions") adds: "You may not offer or impose
+   any additional or different terms or conditions on, or apply any Effective
+   Technological Measures to, the Licensed Material if doing so restricts
+   exercise of the Licensed Rights by any recipient of the Licensed Material."
+   That second clause is addressed to "You", defined in §1 as "the individual or
+   entity exercising the Licensed Rights under this Public License", so it
+   constrains those passing the material on rather than the licensor's original
+   grant; §2(a)(5)(A) is the clause that fixes what the licensor's own offer
+   contains. It is noted here so the record is complete, not as a licence term. Nothing in any of the four documents requires a watermark, C2PA
    metadata, or any provenance marking inside the image files themselves.
 
 3. **Attribution party:** Nothing requires naming OpenAI or OpenRouter, and the
