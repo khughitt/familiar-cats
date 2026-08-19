@@ -12,4 +12,4 @@ jobs:
           node-version: '26'
       - run: rm -rf pack/.git
       - run: npm install git+https://github.com/khughitt/familiar-theme.git#v0.1.1
-      - run: node -e "import('familiar-theme').then(m => m.validateThemePack('pack')).then(p => console.log('pack ok:', p.members.length, 'members'))"
+      - run: node -e "import('familiar-theme').then(m => m.validateThemePack('pack')).then(p => console.log('pack ok:', p.members.size, 'members'))"
