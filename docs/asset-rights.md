@@ -55,18 +55,20 @@ conditions matches the pinned version.
 
    OpenRouter takes no ownership. §6.1 supplies the definitions — "You may
    provide input into the Services, which may include images, data, text, and
-   other types of work ("Input") and receive an output from the Services based on
-   your Input ("Output", and collectively, the Input and Output are "User
-   Content")" — grants OpenRouter a licence in that User Content — "OpenRouter
-   a non-exclusive, transferable, worldwide, royalty-free license, with the right
+   other types of work ("Input") and receive an output from the Services based
+   on your Input ("Output", and collectively, the Input and Output are "User
+   Content")" — grants a licence in that User Content — "By making any User
+   Content available through the Service, you hereby grant to OpenRouter a
+   non-exclusive, transferable, worldwide, royalty-free license, with the right
    to sublicense, to use, host, cache, store, reproduce, transmit, publicly
    display, publicly perform, publish, distribute and modify (for formatting
    purposes only), your User Content solely in connection with operating and
    providing the Service and, depending on the permission you grant for certain
-   features, to provide to other users, individuals, and/or organizations" — and then
-   disclaims the ownership question rather than answering it: "You retain copyright and any other
-   proprietary rights that you may hold in the Input. Your ownership rights in
-   the Output are set forth in the Model Terms for each Model you use." The
+   features, to provide to other users, individuals, and/or organizations" —
+   and then disclaims the ownership question rather than answering it: "You
+   retain copyright and any other proprietary rights that you may hold in the
+   Input. Your ownership rights in the Output are set forth in the Model Terms
+   for each Model you use." The
    separate §6.2 logging licence (a "worldwide, perpetual, irrevocable,
    non-exclusive, royalty-free, fully paid right and license (with the right to
    sublicense) to host, store, transfer, display, perform, reproduce, modify for
@@ -133,7 +135,10 @@ conditions matches the pinned version.
    Policy. The obligation to obey it sits in Services Agreement §3.3
    (Restrictions) — "Customer will not, and will not permit End Users to: (a) use
    the Services or Customer Content in a way that violates applicable laws or
-   OpenAI Policies" — while §17 (Definitions) supplies the term, defining
+   OpenAI Policies" — which, these being non-BYOK calls, binds OpenRouter
+   directly as OpenAI's Customer and reaches this project only through
+   OpenRouter §5.2's flow-down of Model Terms compliance, the same indirect
+   route as §3.3(e) below. §17 (Definitions) supplies the term, defining
    "OpenAI Policies" as "the Service-Specific Terms, Sharing and Publication
    Policy, and Usage Policies" and pinning which version applies. It speaks to
    this pack twice over. Its social-media section opens "Posting your own
@@ -170,10 +175,11 @@ conditions matches the pinned version.
    AI-generated at Keith Hughitt's direction and his responsibility.
 
    Why the remaining bullets of both lists are not carried into the licence. Two
-   further bullets appear in the published-works list. "Topics of the content do not violate OpenAI's
-   Content Policy or Terms of Use, e.g., are not related to adult content, spam,
-   hateful content, content that incites violence, or other uses that may cause
-   social harm" is a content-topic restriction on what this project publishes,
+   further bullets appear in the published-works list. "Topics of the content do
+   not violate OpenAI's Content Policy or Terms of Use, e.g., are not related to
+   adult content, spam, hateful content, content that incites violence, or other
+   uses that may cause social harm" is a content-topic restriction on what this
+   project publishes,
    satisfied on its face by pixel-art cats, and not a term a licence grants
    downstream. "We kindly ask that you refrain from sharing outputs that may
    offend others" is framed as a request, not an obligation. The social-media
@@ -215,7 +221,8 @@ conditions matches the pinned version.
    entity exercising the Licensed Rights under this Public License", so it
    constrains those passing the material on rather than the licensor's original
    grant; §2(a)(5)(A) is the clause that fixes what the licensor's own offer
-   contains. It is noted here so the record is complete, not as a licence term. Nothing in any of the four documents requires a watermark, C2PA
+   contains. It is noted here so the record is complete, not as a licence term.
+   Nothing in any of the four platform documents requires a watermark, C2PA
    metadata, or any provenance marking inside the image files themselves.
 
 3. **Attribution party:** Nothing requires naming OpenAI or OpenRouter, and the
@@ -229,13 +236,14 @@ conditions matches the pinned version.
    runs the other way: the Sharing and Publication Policy requires the published
    content be attributed to "your name or company", i.e. to Keith Hughitt.
    OpenRouter's terms impose no attribution condition on outputs at all. The
-   OpenAI Terms of Use' sole related provision is the mirror-image prohibition,
+   OpenAI Terms of Use's sole related provision is the mirror-image prohibition,
    listing among prohibited uses "Represent that Output was human-generated when
    it was not." Naming Keith Hughitt as the CC BY 4.0 attribution party,
    alongside a disclosure that states both the AI role and his own, satisfies
-   all of these. Recording the provenance facts in `sprites/<member>/provenance.json`,
-   which names the model and endpoint as evidence rather than as marketing
-   attribution, is descriptive and outside §10's subject matter.
+   all of these. Recording the provenance facts in
+   `sprites/<member>/provenance.json`, which names the model and endpoint as
+   evidence rather than as marketing attribution, is descriptive and outside
+   §10's subject matter.
 
 ## Conclusion
 
