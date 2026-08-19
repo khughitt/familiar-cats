@@ -1,0 +1,15 @@
+name: validate
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: pack
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '26'
+      - run: rm -rf pack/.git
+      - run: npm install git+https://github.com/khughitt/familiar-theme.git#v0.1.1
+      - run: node -e "import('familiar-theme').then(m => m.validateThemePack('pack')).then(p => console.log('pack ok:', p.members.length, 'members'))"
