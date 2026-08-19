@@ -1,0 +1,15 @@
+The images under sprites/ are licensed under the Creative Commons
+Attribution 4.0 International license (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Keith Hughitt.
+
+These images were generated with the openai/gpt-5.4-image-2 model via
+OpenRouter. Per-image generation evidence (full request, prompt, digest,
+cost) is recorded in sprites/<member>/provenance.json. The rights basis for
+this grant is documented in docs/asset-rights.md.
+
+This grant is conditioned on the pack being attributed to Keith Hughitt's
+name. It is further conditioned on the pack disclosing the sprites' origin,
+stating that they were AI-generated at Keith Hughitt's direction and are his
+responsibility.
