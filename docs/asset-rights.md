@@ -1,11 +1,11 @@
 # Asset rights review
 
-Date checked: 2026-08-19. Reviewer: Keith Hughitt (conclusion approved) with
+Date checked: 2026-08-21. Reviewer: Keith Hughitt (conclusion approved) with
 agent-assisted research.
 
 ## Scope
 
-Every image under `sprites/` was generated between 2026-07-31 and 2026-08-02
+Images under `sprites/` were generated between 2026-07-31 and 2026-08-21
 via the OpenRouter images endpoint, model `openai/gpt-5.4-image-2`,
 provider-pinned to OpenAI, no BYOK key. Per-image evidence:
 `sprites/<member>/provenance.json` (full request, prompt, image digest, cost).
@@ -14,22 +14,19 @@ provider-pinned to OpenAI, no BYOK key. Per-image evidence:
 
 | Document | Version / effective date | URL | Date checked |
 | --- | --- | --- | --- |
-| OpenRouter Terms of Service | "Last Updated: July 29, 2026" — in force on all three generation dates | https://openrouter.ai/terms | 2026-08-19 |
-| Model Terms for openai/gpt-5.4-image-2 | No version or effective date stated in the document; current text as retrieved on the date checked. OpenRouter publishes no model-specific terms for this slug — neither the model page, its providers tab, nor the endpoints API carries a terms field — so the URL in this row is what OpenRouter records as the OpenAI provider's "Terms of Service" at https://openrouter.ai/provider/openai | https://openai.com/policies/row-terms-of-use/ | 2026-08-19 |
-| OpenAI output-ownership terms (OpenAI Services Agreement) | "Effective: January 1, 2026" — in force on all three generation dates | https://openai.com/policies/services-agreement/ | 2026-08-19 |
-| OpenAI Sharing and Publication Policy (incorporated by the agreement above) | No version or effective date stated in the document; current text as retrieved on the date checked | https://openai.com/policies/sharing-publication-policy/ | 2026-08-19 |
-| Creative Commons Attribution 4.0 International legalcode (the licence being applied, cited in Finding 2) | Version 4.0 International | https://creativecommons.org/licenses/by/4.0/legalcode.en | 2026-08-19 |
+| OpenRouter Terms of Service | "Last Updated: July 29, 2026" — in force on all generation dates | https://openrouter.ai/terms | 2026-08-21 |
+| Model Terms for openai/gpt-5.4-image-2 | "Published: January 1, 2026" and "Effective: January 1, 2026". OpenRouter publishes no model-specific terms for this slug — neither the model page, its providers tab, nor the endpoints API carries a terms field — so the URL in this row is what OpenRouter records as the OpenAI provider's "Terms of Service" at https://openrouter.ai/provider/openai | https://openai.com/policies/row-terms-of-use/ | 2026-08-21 |
+| OpenAI output-ownership terms (OpenAI Services Agreement) | "Effective: January 1, 2026" — in force on all generation dates | https://openai.com/policies/services-agreement/ | 2026-08-21 |
+| OpenAI Sharing and Publication Policy (incorporated by the agreement above) | No version or effective date stated in the document; current text as retrieved on the date checked | https://openai.com/policies/sharing-publication-policy/ | 2026-08-21 |
+| Creative Commons Attribution 4.0 International legalcode (the licence being applied, cited in Finding 2) | Version 4.0 International | https://creativecommons.org/licenses/by/4.0/legalcode.en | 2026-08-21 |
 
-Retrieval notes. `openai.com` refused direct automated requests (HTTP 403), so
-the three OpenAI documents were read through the `r.jina.ai` text proxy
-(e.g. `https://r.jina.ai/https://openai.com/policies/services-agreement/`),
-which returns the live page as text. No archived snapshot service was reachable
-from the review environment, so for the two OpenAI documents that state no
-effective date, the current text is the best available evidence and it is
-recorded as current-as-of the date checked rather than as-of-generation. The
-two documents that do state a date — the OpenRouter Terms of Service and the
-OpenAI Services Agreement — both took effect before 2026-07-31 and so are the
-versions that governed the generation runs.
+Retrieval notes. The OpenRouter and OpenAI documents were read directly from
+their official pages. The Sharing and Publication Policy states no effective
+date, so its current text is recorded as current-as-of the date checked rather
+than as-of-generation. The three documents that do state a date — the
+OpenRouter Terms of Service, OpenAI Terms of Use, and OpenAI Services Agreement
+— all took effect before 2026-07-31 and so cover every generation run. The
+2026-08-21 recheck found no substantive change to the findings or conclusion.
 
 The Services Agreement addresses the undated-policy problem directly. §17
 defines its incorporated policies as "the Service-Specific Terms, Sharing and

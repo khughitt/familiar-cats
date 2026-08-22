@@ -1,13 +1,13 @@
 {
-  "key": "ddac7bb3606d",
-  "imageSha256": "84d4d7dfbd25371becc5bfb5f411678d5781869e130dd3864a233981bc7d85d2",
-  "prompt": "a single sprite sheet, 3 columns x 2 rows, in reading order of ONE tortoiseshell moggie with no white anywhere, her short dense coat broken into bold irregular patches of jet black and warm ginger, one hard-edged patch running straight down the middle of her face so the two halves do not match, and round copper eyes, in six poses:\n\n1. idle: curled up fast asleep: body curled into a loaf, head lowered and resting ON the front paws, EYES CLOSED, tail wrapped around the body — but the ears still stand clearly above the head, never tucked under or flattened\n2. working: scrabbling forward, both front paws low and busy, forequarters down and rump up, tail raised and kinked — but the head stays UP with the ears pricked, NEVER lowered\n3. needs-input: seen from a HIGH CAMERA ANGLE, as if you are standing over the cat and looking down at it: it sits at your feet, close to you and filling the cell, and tips its face UP to meet your eyes — so the head is large and near, and the chest, shoulders and front paws foreshorten away below it. Eyes wide, open and waiting: the look a cat gives you standing beside its empty bowl. A whole animal seen from above, never a floating head\n4. needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw turned to the viewer, the other three paws planted — insistent, pawing at you for attention, eyes on yours\n5. error: startled: back arched, tail raised and bristled, ears flattened back, eyes round and caught out, mouth closed — surprised, not shrieking\n6. done: walking toward the viewer at an easy trot, body level and side-on, TAIL STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears up, head up and pleased — the happy tail-up greeting walk, coming to tell you it is finished\n\nall six drawings are the SAME character: same build, markings, light.\n\nflat pure-magenta background (#FF00FF), no shadows cast on the background.\n\nStyle: hand-painted pastoral-anime warmth rendered as pixel art. Gentle, observed, slightly melancholy. A real animal, not a mascot. Authentic pixel art on a clean pixel grid: hard-edged blocks, clustered shading, a dark outline, no blur, no gradients, no antialiasing. CONSTRUCT THE ANIMAL ON A COARSE LOGICAL GRID: it stands about 100 logical pixels from ear-tips to paws, and every logical pixel is one solid square block about four screen pixels across. That grid is the whole budget, so the flat areas are LARGE and few: a stripe is a single flat colour with a big visible staircase along its edge, an eye is a hard ring of one flat colour against one flat dark, and no single material carries more than three or four tones — never a ramp of close shades across a cheek or a gradient inside an iris. THE COARSENESS IS IN THE RENDERING AND NEVER IN THE ANATOMY: draw an ordinary ADULT animal underneath the blocks — real skull and muzzle proportions, eyes of everyday size set well apart with a clear dark pupil, long legs carrying the body well clear of the ground, a long back, and a head that does not dominate the body. Coarse blocks, correct proportions..\n\nBar-surface notes (advisory — the base render leads; mind these only if the 22px bar matters to you):\n- for the bar: prefer one connected mass per pose — a detached part can drop out at 22px\n- for the bar: give the six states distinct outlines, or they blur together at 22px\n\nHer black and her ginger do not sit in neat separate blocks like cast shadow — they INTERLOCK. Every patch has a ragged uneven edge that breaks into a few loose scattered blocks of the other colour along it, so the two colours stipple and mix into one another wherever they meet, the way a real tortoiseshell's coat does. The patches are of clearly different sizes and are spread unevenly over her, some small and broken, some large. THE SPLIT ON HER FACE IS DELIBERATELY LOPSIDED AND NEVER SYMMETRICAL: it does not run down the midline between her eyes — it sits well OFF-CENTRE, giving clearly more of her face to one colour than the other, and its edge is a ragged uneven break rather than a straight line, wandering across the bridge of her nose and taking in one whole eye and part of a cheek. The two halves must not mirror each other.",
+  "key": "71cae542e8a9",
+  "imageSha256": "372b67aa3d5331cacd3383ee28350df63ac117e4c02b6b5b92919b96373e5d33",
+  "prompt": "a single sprite sheet, 3 columns x 2 rows, in reading order of ONE ordinary short-haired tortoiseshell moggie with no white anywhere, her dense coat broken into uneven interlocking patches of jet black and warm ginger whose ragged mottled edges mix rather than forming neat blocks or cast shadows, a lopsided off-centre facial divide whose wandering boundary crosses the nose and gives visibly more of her face to one colour than the other, and round copper eyes, in six poses:\n\n1. idle: curled up fast asleep: body curled into a loaf, head lowered and resting ON the front paws, EYES CLOSED, tail wrapped around the body — but the ears still stand clearly above the head, never tucked under or flattened\n2. working: scrabbling forward, both front paws low and busy, forequarters down and rump up, tail raised and kinked — but the head stays UP with the ears pricked, NEVER lowered\n3. needs-input: sitting front-on, ears up, eyes wide, staring directly at the viewer\n4. needs-approval: sitting in profile with one front leg REACHING OUT HORIZONTALLY at full stretch, the paw held well clear of the body — the outstretched leg must break the silhouette into an L shape. Insistent, pawing at you for attention\n5. error: startled: back arched, tail raised and bristled, ears flattened back, eyes round and caught out, mouth closed — surprised, not shrieking\n6. done: walking toward the viewer at an easy trot, body level and side-on, TAIL STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears up, head up and pleased — the happy tail-up greeting walk, coming to tell you it is finished\n\nall six drawings are the SAME character: same build, markings, light.\n\nflat pure-magenta background (#FF00FF), no shadows cast on the background.\n\nStyle: hand-painted pastoral-anime warmth rendered as pixel art. Gentle, observed, slightly melancholy. A real animal, not a mascot. Authentic pixel art on a clean pixel grid: hard-edged blocks, clustered shading, a dark outline, no blur, no gradients, no antialiasing. CONSTRUCT THE ANIMAL ON A COARSE LOGICAL GRID: it stands about 100 logical pixels from ear-tips to paws, and every logical pixel is one solid square block about four screen pixels across. That grid is the whole budget, so the flat areas are LARGE and few: a stripe is a single flat colour with a big visible staircase along its edge, an eye is a hard ring of one flat colour against one flat dark, and no single material carries more than three or four tones — never a ramp of close shades across a cheek or a gradient inside an iris. THE COARSENESS IS IN THE RENDERING AND NEVER IN THE ANATOMY: draw an ordinary ADULT animal underneath the blocks — real skull and muzzle proportions, eyes of everyday size set well apart with a clear dark pupil, long legs carrying the body well clear of the ground, a long back, and a head that does not dominate the body. Coarse blocks, correct proportions..",
   "request": {
     "transport": "images",
     "endpoint": "https://openrouter.ai/api/v1/images",
     "body": {
       "model": "openai/gpt-5.4-image-2",
-      "prompt": "a single sprite sheet, 3 columns x 2 rows, in reading order of ONE tortoiseshell moggie with no white anywhere, her short dense coat broken into bold irregular patches of jet black and warm ginger, one hard-edged patch running straight down the middle of her face so the two halves do not match, and round copper eyes, in six poses:\n\n1. idle: curled up fast asleep: body curled into a loaf, head lowered and resting ON the front paws, EYES CLOSED, tail wrapped around the body — but the ears still stand clearly above the head, never tucked under or flattened\n2. working: scrabbling forward, both front paws low and busy, forequarters down and rump up, tail raised and kinked — but the head stays UP with the ears pricked, NEVER lowered\n3. needs-input: seen from a HIGH CAMERA ANGLE, as if you are standing over the cat and looking down at it: it sits at your feet, close to you and filling the cell, and tips its face UP to meet your eyes — so the head is large and near, and the chest, shoulders and front paws foreshorten away below it. Eyes wide, open and waiting: the look a cat gives you standing beside its empty bowl. A whole animal seen from above, never a floating head\n4. needs-approval: sitting squarely front-on facing the viewer with ONE FRONT PAW LIFTED AND REACHING OUT TOWARD YOU at chest height, the pad of the paw turned to the viewer, the other three paws planted — insistent, pawing at you for attention, eyes on yours\n5. error: startled: back arched, tail raised and bristled, ears flattened back, eyes round and caught out, mouth closed — surprised, not shrieking\n6. done: walking toward the viewer at an easy trot, body level and side-on, TAIL STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears up, head up and pleased — the happy tail-up greeting walk, coming to tell you it is finished\n\nall six drawings are the SAME character: same build, markings, light.\n\nflat pure-magenta background (#FF00FF), no shadows cast on the background.\n\nStyle: hand-painted pastoral-anime warmth rendered as pixel art. Gentle, observed, slightly melancholy. A real animal, not a mascot. Authentic pixel art on a clean pixel grid: hard-edged blocks, clustered shading, a dark outline, no blur, no gradients, no antialiasing. CONSTRUCT THE ANIMAL ON A COARSE LOGICAL GRID: it stands about 100 logical pixels from ear-tips to paws, and every logical pixel is one solid square block about four screen pixels across. That grid is the whole budget, so the flat areas are LARGE and few: a stripe is a single flat colour with a big visible staircase along its edge, an eye is a hard ring of one flat colour against one flat dark, and no single material carries more than three or four tones — never a ramp of close shades across a cheek or a gradient inside an iris. THE COARSENESS IS IN THE RENDERING AND NEVER IN THE ANATOMY: draw an ordinary ADULT animal underneath the blocks — real skull and muzzle proportions, eyes of everyday size set well apart with a clear dark pupil, long legs carrying the body well clear of the ground, a long back, and a head that does not dominate the body. Coarse blocks, correct proportions..\n\nBar-surface notes (advisory — the base render leads; mind these only if the 22px bar matters to you):\n- for the bar: prefer one connected mass per pose — a detached part can drop out at 22px\n- for the bar: give the six states distinct outlines, or they blur together at 22px\n\nHer black and her ginger do not sit in neat separate blocks like cast shadow — they INTERLOCK. Every patch has a ragged uneven edge that breaks into a few loose scattered blocks of the other colour along it, so the two colours stipple and mix into one another wherever they meet, the way a real tortoiseshell's coat does. The patches are of clearly different sizes and are spread unevenly over her, some small and broken, some large. THE SPLIT ON HER FACE IS DELIBERATELY LOPSIDED AND NEVER SYMMETRICAL: it does not run down the midline between her eyes — it sits well OFF-CENTRE, giving clearly more of her face to one colour than the other, and its edge is a ragged uneven break rather than a straight line, wandering across the bridge of her nose and taking in one whole eye and part of a cheek. The two halves must not mirror each other.",
+      "prompt": "a single sprite sheet, 3 columns x 2 rows, in reading order of ONE ordinary short-haired tortoiseshell moggie with no white anywhere, her dense coat broken into uneven interlocking patches of jet black and warm ginger whose ragged mottled edges mix rather than forming neat blocks or cast shadows, a lopsided off-centre facial divide whose wandering boundary crosses the nose and gives visibly more of her face to one colour than the other, and round copper eyes, in six poses:\n\n1. idle: curled up fast asleep: body curled into a loaf, head lowered and resting ON the front paws, EYES CLOSED, tail wrapped around the body — but the ears still stand clearly above the head, never tucked under or flattened\n2. working: scrabbling forward, both front paws low and busy, forequarters down and rump up, tail raised and kinked — but the head stays UP with the ears pricked, NEVER lowered\n3. needs-input: sitting front-on, ears up, eyes wide, staring directly at the viewer\n4. needs-approval: sitting in profile with one front leg REACHING OUT HORIZONTALLY at full stretch, the paw held well clear of the body — the outstretched leg must break the silhouette into an L shape. Insistent, pawing at you for attention\n5. error: startled: back arched, tail raised and bristled, ears flattened back, eyes round and caught out, mouth closed — surprised, not shrieking\n6. done: walking toward the viewer at an easy trot, body level and side-on, TAIL STRAIGHT UP VERTICAL like a flagpole with a small hook at the tip, ears up, head up and pleased — the happy tail-up greeting walk, coming to tell you it is finished\n\nall six drawings are the SAME character: same build, markings, light.\n\nflat pure-magenta background (#FF00FF), no shadows cast on the background.\n\nStyle: hand-painted pastoral-anime warmth rendered as pixel art. Gentle, observed, slightly melancholy. A real animal, not a mascot. Authentic pixel art on a clean pixel grid: hard-edged blocks, clustered shading, a dark outline, no blur, no gradients, no antialiasing. CONSTRUCT THE ANIMAL ON A COARSE LOGICAL GRID: it stands about 100 logical pixels from ear-tips to paws, and every logical pixel is one solid square block about four screen pixels across. That grid is the whole budget, so the flat areas are LARGE and few: a stripe is a single flat colour with a big visible staircase along its edge, an eye is a hard ring of one flat colour against one flat dark, and no single material carries more than three or four tones — never a ramp of close shades across a cheek or a gradient inside an iris. THE COARSENESS IS IN THE RENDERING AND NEVER IN THE ANATOMY: draw an ordinary ADULT animal underneath the blocks — real skull and muzzle proportions, eyes of everyday size set well apart with a clear dark pupil, long legs carrying the body well clear of the ground, a long back, and a head that does not dominate the body. Coarse blocks, correct proportions..",
       "n": 1,
       "quality": "medium",
       "provider": {
@@ -19,19 +19,19 @@
     }
   },
   "seed": null,
-  "costUsd": 0.049136,
+  "costUsd": 0.046504,
   "usage": {
-    "prompt_tokens": 997,
+    "prompt_tokens": 668,
     "completion_tokens": 1372,
-    "total_tokens": 2369,
-    "cost": 0.049136,
+    "total_tokens": 2040,
+    "cost": 0.046504,
     "is_byok": false,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
     "cost_details": {
-      "upstream_inference_cost": 0.049136,
-      "upstream_inference_prompt_cost": 0.007976,
+      "upstream_inference_cost": 0.046504,
+      "upstream_inference_prompt_cost": 0.005344,
       "upstream_inference_completions_cost": 0.04116
     },
     "completion_tokens_details": {
@@ -39,25 +39,25 @@
       "image_tokens": 1372
     }
   },
-  "generatedAt": "2026-08-02T12:47:27.122Z",
+  "generatedAt": "2026-08-21T21:26:33.628Z",
   "attempts": [
     {
-      "at": "2026-08-02T12:47:27.123Z",
-      "key": "ddac7bb3606d",
+      "at": "2026-08-21T21:26:33.629Z",
+      "key": "71cae542e8a9",
       "status": "complete",
-      "costUsd": 0.049136,
+      "costUsd": 0.046504,
       "usage": {
-        "prompt_tokens": 997,
+        "prompt_tokens": 668,
         "completion_tokens": 1372,
-        "total_tokens": 2369,
-        "cost": 0.049136,
+        "total_tokens": 2040,
+        "cost": 0.046504,
         "is_byok": false,
         "prompt_tokens_details": {
           "cached_tokens": 0
         },
         "cost_details": {
-          "upstream_inference_cost": 0.049136,
-          "upstream_inference_prompt_cost": 0.007976,
+          "upstream_inference_cost": 0.046504,
+          "upstream_inference_prompt_cost": 0.005344,
           "upstream_inference_completions_cost": 0.04116
         },
         "completion_tokens_details": {
@@ -68,38 +68,8 @@
     }
   ],
   "gate": {
-    "pairs": {
-      "idle|working": 0.5432,
-      "idle|needs-input": 0.5372,
-      "idle|needs-approval": 0.6109,
-      "idle|error": 0.5809,
-      "idle|done": 0.741,
-      "working|needs-input": 0.3826,
-      "working|needs-approval": 0.4957,
-      "working|error": 0.4163,
-      "working|done": 0.6508,
-      "needs-input|needs-approval": 0.3229,
-      "needs-input|error": 0.373,
-      "needs-input|done": 0.6329,
-      "needs-approval|error": 0.4733,
-      "needs-approval|done": 0.5562,
-      "error|done": 0.6538
-    },
-    "worst": {
-      "pair": "needs-input|needs-approval",
-      "d": 0.3229
-    },
-    "masses": {
-      "idle": 1,
-      "working": 1,
-      "needs-input": 1,
-      "needs-approval": 1,
-      "error": 1,
-      "done": 1
-    },
-    "warnings": [
-      "needs-input|needs-approval collide on the bar (0.3229 ≤ 0.35)"
-    ],
-    "imageSha256": "84d4d7dfbd25371becc5bfb5f411678d5781869e130dd3864a233981bc7d85d2"
+    "kind": "state-sheet",
+    "pass": true,
+    "imageSha256": "372b67aa3d5331cacd3383ee28350df63ac117e4c02b6b5b92919b96373e5d33"
   }
 }
