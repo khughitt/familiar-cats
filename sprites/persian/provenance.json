@@ -107,5 +107,17 @@
       "needs-approval|error collide on the bar (0.34 ≤ 0.35)"
     ],
     "imageSha256": "1627e521171d50aa6794dbb0b93dff64f108100682e7699610bcdde77685465d"
+  },
+  "compilePolicy": {
+    "translucency": "opaque",
+    "keepDetached": false,
+    "authority": {
+      "flow": "art/discovery/cats-v2-states",
+      "round": "round-04",
+      "job": "persian__s1__explicit",
+      "key": "b1f4c8c22f50",
+      "expansionSha256": "198b7b321b01fda7fb6b1cb427e39c3c3e62aa04c9db4e540cb03fef6db81c5a",
+      "imageSha256": "1627e521171d50aa6794dbb0b93dff64f108100682e7699610bcdde77685465d"
+    }
   }
 }

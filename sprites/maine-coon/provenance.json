@@ -101,5 +101,17 @@
       "needs-input|needs-approval collide on the bar (0.297 ≤ 0.35)"
     ],
     "imageSha256": "22f55b10eca64afd31f175ea7e7bdf4d24be48ad9a7cc6aff72f947b5d37a290"
+  },
+  "compilePolicy": {
+    "translucency": "opaque",
+    "keepDetached": false,
+    "authority": {
+      "flow": "art/discovery/cats-v2-states",
+      "round": "round-04",
+      "job": "maine-coon__s2__explicit",
+      "key": "e83381962107",
+      "expansionSha256": "198b7b321b01fda7fb6b1cb427e39c3c3e62aa04c9db4e540cb03fef6db81c5a",
+      "imageSha256": "22f55b10eca64afd31f175ea7e7bdf4d24be48ad9a7cc6aff72f947b5d37a290"
+    }
   }
 }

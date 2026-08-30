@@ -99,5 +99,17 @@
     },
     "warnings": [],
     "imageSha256": "01d7d634b67f628e47712d2baa0d07161c2561072868efb890580a8ab8efd07a"
+  },
+  "compilePolicy": {
+    "translucency": "opaque",
+    "keepDetached": false,
+    "authority": {
+      "flow": "art/discovery/cats-v2-states",
+      "round": "round-03",
+      "job": "meerkat__s2__explicit",
+      "key": "5e5ab1e02dec",
+      "expansionSha256": "bf64412696e417e64036ff8de1d5f393b423e37f58924fd6369402662e63ba82",
+      "imageSha256": "01d7d634b67f628e47712d2baa0d07161c2561072868efb890580a8ab8efd07a"
+    }
   }
 }

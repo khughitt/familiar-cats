@@ -101,5 +101,17 @@
       "needs-input|needs-approval collide on the bar (0.3258 ≤ 0.35)"
     ],
     "imageSha256": "5ad921624e022532ceff6cd46f2b96467559da3473233cd88a41617da088fdec"
+  },
+  "compilePolicy": {
+    "translucency": "opaque",
+    "keepDetached": false,
+    "authority": {
+      "flow": "art/discovery/cats-v2-states",
+      "round": "round-04",
+      "job": "tuxedo__s3__explicit",
+      "key": "485bc77aec1f",
+      "expansionSha256": "198b7b321b01fda7fb6b1cb427e39c3c3e62aa04c9db4e540cb03fef6db81c5a",
+      "imageSha256": "5ad921624e022532ceff6cd46f2b96467559da3473233cd88a41617da088fdec"
+    }
   }
 }

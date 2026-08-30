@@ -71,5 +71,17 @@
     "kind": "state-sheet",
     "pass": true,
     "imageSha256": "887a85898f0cd95560cfae8c28262c1ba8495d097cb929b599b416788a7cfc9d"
+  },
+  "compilePolicy": {
+    "translucency": "opaque",
+    "keepDetached": false,
+    "authority": {
+      "flow": "art/discovery/tortoiseshell-v1-states",
+      "round": "round-07",
+      "job": "tortoiseshell-v2__s1__explicit",
+      "key": "294bf8eb1afe",
+      "expansionSha256": "de75ab945f459fc46a6b2f7f49cb58906459f7431d7116165358c02750c97432",
+      "imageSha256": "887a85898f0cd95560cfae8c28262c1ba8495d097cb929b599b416788a7cfc9d"
+    }
   }
 }

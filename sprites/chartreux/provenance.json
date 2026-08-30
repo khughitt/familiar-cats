@@ -101,5 +101,17 @@
       "working|error collide on the bar (0.3416 ≤ 0.35)"
     ],
     "imageSha256": "22a3f3b4ec76a91861b3a45d44243070e81034568167c510a1ee81da0ededc8b"
+  },
+  "compilePolicy": {
+    "translucency": "opaque",
+    "keepDetached": false,
+    "authority": {
+      "flow": "art/discovery/cats-v2-states",
+      "round": "round-07",
+      "job": "chartreux__s0__explicit",
+      "key": "d53ca537ec8b",
+      "expansionSha256": "50b5e82e4ed4d7533f45b0fe3bfe9990a08c42ef70e24a51e7360438cf1a0230",
+      "imageSha256": "22a3f3b4ec76a91861b3a45d44243070e81034568167c510a1ee81da0ededc8b"
+    }
   }
 }
