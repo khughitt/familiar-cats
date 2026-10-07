@@ -111,5 +111,9 @@
       "expansionSha256": "198b7b321b01fda7fb6b1cb427e39c3c3e62aa04c9db4e540cb03fef6db81c5a",
       "imageSha256": "99ca3f1829a9c9372be9a72af67c6ff8e1d33ccd93b572d62493e8d840ebbb3f"
     }
+  },
+  "compileEdge": {
+    "edge": "matte-v1",
+    "decision": "docs/specs/2026-10-01-key-edge-matte-design.md"
   }
 }
